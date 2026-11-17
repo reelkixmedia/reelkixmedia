@@ -1,8 +1,8 @@
 # Hi, I'm Nikko Echevarria 👋
 
-**AI automation builder.** I design and ship Claude-powered business systems end to end — integrations, AI output with guardrails and validation, payments, messaging, scheduling, and automated tests.
+**AI-directed product builder.** I turn business problems into working software by directing AI coding tools. Every project here was built with Claude Code: I defined the requirements and the safety rules, reviewed what the AI produced, tested it like a customer would, and pushed fixes until it worked.
 
-I came up through Tier 1 technical support (SME and escalation point, 50+ users a day, HIPAA environment) and security training, so I build with the end user and the failure cases in mind. I use AI-assisted development (Claude Code) heavily, and every project here is tested and documented.
+I came up through Tier 1 technical support (SME and escalation point, 50+ users a day, HIPAA environment) and security training, so I focus on the end user and the failure cases. I'm not a hand-coder. My strength is knowing what a system needs to do, catching when the AI gets it wrong, and getting it shipped.
 
 📍 Wesley Chapel, FL · 💼 [LinkedIn](https://linkedin.com/in/nikkoechevarria) · 🌐 [reelkix.com](https://reelkix.com)
 
@@ -18,7 +18,7 @@ I came up through Tier 1 technical support (SME and escalation point, 50+ users 
 | [**Pro-Sync MLB Analytics**](https://github.com/reelkixmedia/prosync-mlb-analytics) | Daily MLB prediction pipeline ranking home-run and total-bases outcomes. | Statcast feature engineering, a ridge logistic regression written from scratch, nightly self-grading and calibration tracking. Streamlit. |
 | [**Previsit Scanner**](https://github.com/reelkixmedia/previsit-scanner) | Flags expired prescriptions and overdue labs before patient visits (synthetic data only). | Security-first design: TOTP MFA, role-based access, per-practice encryption, hash-chained tamper-evident audit log. 58 tests. |
 
-## Toolbox
+## Tools & platforms used in these builds
 
 **AI:** Claude API (Anthropic), structured outputs, prompt engineering, document extraction, guardrails & validation, human-in-the-loop review, accuracy evaluation, Claude Code
 **Backend:** Python, FastAPI, REST APIs, webhooks, OAuth, PostgreSQL, SQLite, pytest, Streamlit
@@ -27,6 +27,7 @@ I came up through Tier 1 technical support (SME and escalation point, 50+ users 
 
 ## How I build
 
+- **Direct the AI, own the outcome.** I write the requirements, Claude Code writes the code, and I test every flow and send back exact fixes until it works.
 - **Safe by default.** Everything that contacts real people runs in dry-run mode until it's switched on.
 - **Don't trust the model blindly.** AI output gets checked against source data, rejected when it invents facts, and routed to a human when confidence is low.
 - **Measure it.** Tests for the code, accuracy reports for the AI, and nightly grading for predictions.
